@@ -1,8 +1,9 @@
+// Proyecto kingman V3
 #include <Robot.h>
 Robot kingman;
 void setup() {
-  // put your setup code here, to run once:
   kingman.ir_adelante(90);
+  kigman.pausa();
 }
 
 void loop() {
