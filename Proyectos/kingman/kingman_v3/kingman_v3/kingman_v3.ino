@@ -1,12 +1,13 @@
-// Proyecto kingman V3
-#include <Robot.h>
-Robot kingman;
+#include <Stepper.h>
+#define STEPS 2048
+
+Stepper stepper(STEPS, 15, 2, 4, 16);
+//Stepper stepper(STEPS, 8, 9, 10, 11);
+ 
 void setup() {
-  kingman.ir_adelante(90);
-  kigman.pausa();
+  stepper.setSpeed(10);
 }
-
+ 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  stepper.step(2048);
 }
