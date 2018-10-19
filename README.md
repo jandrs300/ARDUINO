@@ -4,5 +4,5 @@ Hola amigo/as este es mi lugar personal, donde guardo mis proyetos de arduino pa
 
 
 
-![texto cualquiera por si no carga la imagen](https://github.com/jandrs300/ARDUINO/blob/master/Ejercicios/bluetooth/lobo.jpg)
+![texto cualquiera por si no carga la imagen](https://github.com/jandrs300/ARDUINO/blob/master/lobo.jpg)
 
