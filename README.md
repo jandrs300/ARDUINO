@@ -1,6 +1,6 @@
 # PROYECTOS ARDUINO
 ## CARPETA DE PROYECTOS Y ALGO MAS.
-#### Hola amigo/as este es mi lugar personal, donde guardo mis proyetos de arduino para **enseñar** *programación a niños y niñas.* Tu ayuda en importate si tienes alguna idea o proyecto que pueda enseñar dejame un comentario y tratare de hacerlo en el menor tiempo posible. BIENVENIDOS.
+Hola amigo/as este es mi lugar personal, donde guardo mis proyetos de arduino para **enseñar** *programación a niños y niñas.* Tu ayuda en importate si tienes alguna idea o proyecto que pueda enseñar dejame un comentario y tratare de hacerlo en el menor tiempo posible. BIENVENIDOS.
 
 
 
