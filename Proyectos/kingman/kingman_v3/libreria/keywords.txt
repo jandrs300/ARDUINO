@@ -1,0 +1,27 @@
+Kingman	KEYWORD1
+
+girar	KEYWORD2
+adelante	KEYWORD2
+atras	KEYWORD2
+
+detener	KEYWORD2
+
+
+pausa	KEYWORD2
+
+ir_adelante	KEYWORD2
+ir_atras	KEYWORD2
+rotar_derecha	KEYWORD2
+rotar_izquierda	KEYWORD2
+adelante360	KEYWORD2
+atras360	KEYWORD2
+girar_M_D	KEYWORD2
+girar_M_I	KEYWORD2
+
+poligono			KEYWORD2
+rectangulo			KEYWORD2
+estrella			KEYWORD2
+circulo				KEYWORD2
+recorrer			KEYWORD2
+
+
