@@ -5,13 +5,15 @@ char dato;
 int size = 0, song = 0, cont = 0;
 bool b_rgb;
 String dd = "";
-String trama_array[16] = {"0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0","0", "0", "0"};
+String trama_array[16] = {"0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"};
 Vennom robot;
 
 void setup()
 {
-  Serial.begin(9600);
-  SerialBT.begin(9600);
+  //Serial.begin(9600);
+  //SerialBT.begin(9600);
+  Serial.begin(115200);
+  SerialBT.begin(115200);
   delay(1000);
 
 }
@@ -153,7 +155,7 @@ void recibir_rgb() {
   g1 = map(g1, 0, 9, 0, 255);
   b1 = map(b1, 0, 9, 0, 255);
   robot.LED_RGB(r1, g1, b1);
-  
+
   for (int k = 0; k <= 16; k++) {
     trama_array[k] = "0";
   }
