@@ -36,7 +36,6 @@ void setup() {
     selec('2');
     selec('1');
     selec('2');*/
-
 }
 
 void loop() {
@@ -87,7 +86,6 @@ void selec(char i) {
       }
       cont = 0;
       break;
-
   }
 }
 
@@ -104,13 +102,12 @@ void girar_izq() {
     digitalWrite(_M1_2, LOW);
     digitalWrite(_M1_3, HIGH);
 
-
     digitalWrite(_M2_0, HIGH);
     digitalWrite(_M2_1, LOW);
     digitalWrite(_M2_2, LOW);
     digitalWrite(_M2_3, LOW);
-
     delay(del);
+    
     //dos
     digitalWrite(_M1_0, LOW);
     digitalWrite(_M1_1, LOW);
@@ -122,6 +119,7 @@ void girar_izq() {
     digitalWrite(_M2_2, LOW);
     digitalWrite(_M2_3, LOW);
     delay(del);
+    
     //tres
     digitalWrite(_M1_0, LOW);
     digitalWrite(_M1_1, HIGH);
@@ -210,6 +208,7 @@ void girar_der() {
   _numero_pasos = 0.0;
 
   while (grados > _numero_pasos) { // Giro hacia la DERECHA en grados
+    
     // uno
     digitalWrite(_M1_0, HIGH);
     digitalWrite(_M1_1, LOW);
@@ -275,9 +274,9 @@ void adelante_() {
     digitalWrite(_M2_0, HIGH);
     digitalWrite(_M2_1, LOW);
     digitalWrite(_M2_2, LOW);
-    digitalWrite(_M2_3, LOW);;
-
+    digitalWrite(_M2_3, LOW);
     delay(del);
+    
     //dos
     digitalWrite(_M1_0, LOW);
     digitalWrite(_M1_1, HIGH);
@@ -289,11 +288,9 @@ void adelante_() {
     digitalWrite(_M2_1, HIGH);
     digitalWrite(_M2_2, LOW);
     digitalWrite(_M2_3, LOW);
-
-
     delay(del);
+    
     //tres
-
     digitalWrite(_M1_0, LOW);
     digitalWrite(_M1_1, LOW);
     digitalWrite(_M1_2, HIGH);
@@ -304,22 +301,18 @@ void adelante_() {
     digitalWrite(_M2_1, LOW);
     digitalWrite(_M2_2, HIGH);
     digitalWrite(_M2_3, LOW);
-
     delay(del);
+    
     //cuatro
-
     digitalWrite(_M1_0, LOW);
     digitalWrite(_M1_1, LOW);
     digitalWrite(_M1_2, LOW);
     digitalWrite(_M1_3, HIGH);
 
-
-
     digitalWrite(_M2_0, LOW);
     digitalWrite(_M2_1, LOW);
     digitalWrite(_M2_2, LOW);
     digitalWrite(_M2_3, HIGH);
-
     delay(del);
 
     _numero_pasos = _numero_pasos + 1;
