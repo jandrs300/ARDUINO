@@ -10,10 +10,10 @@ Vennom robot;
 
 void setup()
 {
-  //Serial.begin(9600);
-  //SerialBT.begin(9600);
-  Serial.begin(115200);
-  SerialBT.begin(115200);
+  Serial.begin(9600);
+  SerialBT.begin(9600);
+  //Serial.begin(115200);
+  //SerialBT.begin(115200);
   delay(1000);
 
 }
@@ -49,8 +49,6 @@ void recibe_bt(char dat) {
         dato = 'z';
         break;
 
-
-
       case '0':      // STOP
         SerialBT.flush();
         //Serial.write(dato);
@@ -59,7 +57,7 @@ void recibe_bt(char dat) {
         robot.LED_RGB(0, 0, 0);
         break;
 
-      case '1':      // ADELANTE
+      case '2':      // ADELANTE
         SerialBT.flush();
         //Serial.write(dato);
         dato = 'z';
@@ -67,7 +65,7 @@ void recibe_bt(char dat) {
         robot.LED_RGB(0, 255, 0);
         break;
 
-      case '2':      // ATRAS
+      case '1':      // ATRAS
         SerialBT.flush();
         //Serial.write(dato);
         dato = 'z';
@@ -77,7 +75,7 @@ void recibe_bt(char dat) {
 
         break;
 
-      case '3':        // DERECHA
+      case '4':        // DERECHA
         SerialBT.flush();
         //Serial.write(dato);
         dato = 'z';
@@ -85,7 +83,7 @@ void recibe_bt(char dat) {
         robot.LED_RGB(0, 0, 255);
         break;
 
-      case '4':        // IZQUIERDA
+      case '3':        // IZQUIERDA
         SerialBT.flush();
         //Serial.write(dato);
         dato = 'z';
